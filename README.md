@@ -45,9 +45,10 @@ The project allows users to create, view, edit, and delete both user and profile
    ```
 
 3. **Set Up .env File:**
-   Create a `.env` file and configure your PostgreSQL database:
+   Create a `.env` file in the below format
    ```bash
    DATABASE_URL="postgresql://user:password@localhost:5432/database"
+   FRONT_END_URL = http://localhost:3000
    ```
 
 4. **Run Prisma Migrations:**
